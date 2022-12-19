@@ -1,27 +1,19 @@
 {
-  "name": "express-hello-world",
+  "name": "todolist-v1",
   "version": "1.0.0",
-  "description": "Expressjs Hello World example to provide faster start deploying on Cyclic platform",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
-    "serve": "nodemon --watch . server.js",
-    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cyclic-software/express-hello-world.git"
-  },
-  "author": "Cyclic Software",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/cyclic-software/express-hello-world/issues"
-  },
-  "homepage": "https://github.com/cyclic-software/express-hello-world#readme",
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.8.0"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.12"
-  }
+  "keywords": [],
+  "description": ""
 }
